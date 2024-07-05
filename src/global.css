@@ -3,7 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.bg-white2{
+  --tw-bg-opacity: 1 !important;
+  background-color: white;
+}
 footer{
     background-image: url("/assets/footerback.svg");
     background-size: cover;
@@ -37,6 +40,9 @@ footer{
 }
 
 @media only screen and (max-width: 600px) {
+  .mainHeroMargin{
+    margin-top: 0 !important;
+  }
 .desktopp{
   display: none !important;
 }

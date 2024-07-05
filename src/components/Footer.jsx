@@ -1,4 +1,5 @@
 import { footerData } from "../data";
+import { Link, NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -36,65 +37,65 @@ const Footer = () => {
               
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted h">
+                <Link to={"/kurslar"} className="text-muted h">
                      Blok İmtahanları
-                    </a>
+                     </Link>
                    
                 </li>
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted ">
+                <Link to={"/kurslar"} className="text-muted ">
                       1-ci qrup
-                    </a>
+                      </Link>
                    
                 </li>
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted ">
+                <Link to={"/kurslar"} className="text-muted ">
                       2-ci qrup
-                    </a>
+                      </Link>
                    
                 </li>
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted ">
+                <Link to={"/kurslar"} className="text-muted ">
                       3-cü qrup
-                    </a>
+                      </Link>
                    
                 </li>
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted ">
+                <Link to={"/kurslar"} className="text-muted ">
                       4-cü qrup
-                    </a>
+                      </Link>
                    
                 </li>
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted ">
+                <Link to={"/kurslar"} className="text-muted ">
                      Buraxılış İmtahanları
-                    </a>
+                     </Link>
                    
                 </li>
                 <li className="mb-2">
                   
-                  <a href="" className="text-muted ">
+                <Link to={"/kurslar"} className="text-muted ">
                    9-cu sinif
-                  </a>
+                   </Link>
                  
               </li>
               <li className="mb-2">
                   
-                  <a href="" className="text-muted ">
+              <Link to={"/kurslar"} className="text-muted ">
                    10-cu sinif
-                  </a>
+                   </Link>
                  
               </li>
               <li className="mb-2">
                   
-                  <a href="" className="text-muted ">
+              <Link to={"/kurslar"} className="text-muted ">
                    11-cu sinif
-                  </a>
+                  </Link>
                  
               </li>
               
@@ -107,9 +108,9 @@ const Footer = () => {
               
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted ">
+                <Link to={"/about"} className="text-muted ">
                       Haqqımızda
-                    </a>
+                    </Link>
                    
                 </li>
                 <li className="mb-2">
@@ -121,16 +122,16 @@ const Footer = () => {
                 </li>
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted ">
+                    <Link to={"/news"} className="text-muted ">
                       Yeniliklər
-                    </a>
+                    </Link>
                    
                 </li>
                 <li className="mb-2">
                   
-                  <a href="" className="text-muted ">
+                <Link to={"/about"} className="text-muted ">
                     Karyera
-                  </a>
+                  </Link>
                  
               </li>
               

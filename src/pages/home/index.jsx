@@ -25,7 +25,7 @@ function Home() {
       <Nav />
       
 
-      <section style={{marginTop:"-77px"}}>
+      <section className='mainHeroMargin' style={{marginTop:"-77px"}}>
         <div className='mainhero' style={{display: "flex", padding: "150px 140px 0 140px" }}>
           <div><img src="/assets/tehsil.png"/></div>
           <div><img src="/assets/boy.png"/></div>
