@@ -39,7 +39,40 @@
     padding: 32px 35px !important;
 }
 
-.qebulsection{
-    
+.title1{
+    text-align: center;
+    font-size: 30px !important;
+    font-weight: 600;
+    margin-bottom: 12px;
 }
+
+.subtitle1{
+    text-align: center;
+    width: 80% !important;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.tabActive{
+    background: #07A169;
+    color: #fff;
+    padding: 10px 20px !important;
+    border-radius: 8px;
+    border: 1px solid #07A169;
+    margin:0 10px;
+    font-size: 10px !important;
+  }
+  .tabDeactive{
+    background: #fff;
+    color: #818C96;
+    padding: 10px 20px !important;
+    border-radius: 8px;
+    border: 1px solid #818C96;
+    margin:0 10px;
+    font-size: 10px !important;
+  }
+
+  .universection{
+    padding:30px !important;
+  }
 }

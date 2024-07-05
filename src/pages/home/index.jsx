@@ -35,7 +35,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section style={{ padding: "100px 100px" }}>
+      <section className="universection" style={{ padding: "100px 100px" }}>
         <div>
           <h1 className="title1">Universitetə qəbul</h1>
           <p className="subtitle1">
@@ -64,11 +64,26 @@ function Home() {
         </div>
         {tabButton ? (
           <Swiper
-            slidesPerView={4}
+            
             spaceBetween={30}
             pagination={{
               clickable: true,
             }}
+            breakpoints={{
+              576: {
+                // width: 576,
+                slidesPerView: 1,
+              },
+              768: {
+                // width: 768,
+                slidesPerView: 1,
+              },
+              968: {
+                // width: 768,
+                slidesPerView: 4,
+              },
+            }}
+            
             modules={[Pagination]}
             className="mySwiper"
             style={{ padding: "50px 50px" }}
@@ -466,7 +481,20 @@ function Home() {
           </Swiper>
         ) : (
           <Swiper
-            slidesPerView={4}
+          breakpoints={{
+            576: {
+              // width: 576,
+              slidesPerView: 1,
+            },
+            768: {
+              // width: 768,
+              slidesPerView: 1,
+            },
+            968: {
+              // width: 768,
+              slidesPerView: 4,
+            },
+          }}
             spaceBetween={30}
             pagination={{
               clickable: true,
@@ -891,7 +919,7 @@ function Home() {
         </div>
 
         <div
-          className="columns-3"
+          className="desktopp columns-3"
           style={{ paddingRight: "140px", paddingLeft: "140px" }}
         >
           <div style={{ width: "60%", textAlign: "center",margin:"auto" }}>
@@ -958,9 +986,84 @@ function Home() {
             </p>
           </div>
         </div>
+
+
+
+
+        <div
+          className="mobilee"
+          style={{display:"none", paddingRight: "20px", paddingLeft: "20px" }}
+        >
+          <div style={{ width: "60%", textAlign: "center",margin:"auto" }}>
+            <div>
+              <img
+                style={{ margin: "auto", marginBottom: "20px" }}
+                src="/assets/icon1.svg"
+              />
+            </div>
+            <div style={{ fontWeight: "700" }}>
+              Sizin üçün uyğunlaşdırılmış proqram
+            </div>
+            <p style={{ fontSize: "15px", marginTop: "10px" }}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros.
+            </p>
+
+            <div style={{ marginTop: "20px" }}>
+              <img
+                style={{ margin: "auto", marginBottom: "20px" }}
+                src="/assets/icon2.svg"
+              />
+            </div>
+            <div style={{ fontWeight: "700" }}>
+              Canlı dərs ala bilmə xüsusiyyəti
+            </div>
+            <p style={{ fontSize: "15px", marginTop: "10px" }}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros.
+            </p>
+          </div>
+          <div style={{margin:"auto", marginTop:"20px", marginBottom:"20px"}}>
+            <div style={{margin:"auto"}}>
+              <img src="/assets/orange.png" />
+            </div>
+          </div>
+          <div style={{ width: "60%", textAlign: "center",margin:"auto" }}>
+            <div>
+              <img
+                style={{ margin: "auto", marginBottom: "20px" }}
+                src="/assets/icon3.svg"
+              />
+            </div>
+            <div style={{ fontWeight: "700" }}>
+            Video həlli olan sınaq sualları
+            </div>
+            <p style={{ fontSize: "15px", marginTop: "10px" }}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros.
+            </p>
+
+            <div style={{ marginTop: "20px" }}>
+              <img
+                style={{ margin: "auto", marginBottom: "20px" }}
+                src="/assets/icon4.svg"
+              />
+            </div>
+            <div style={{ fontWeight: "700" }}>
+            İnkişafınızın analizi <br/>sistemi
+            </div>
+            <p style={{ fontSize: "15px", marginTop: "10px" }}>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Suspendisse varius enim in eros.
+            </p>
+          </div>
+        </div>
+
+
+
       </section>
 
-      <section style={{ padding: "60px 100px" }}>
+      <section className="universection" style={{ padding: "60px 100px" }}>
 
       <div>
           <h1 className="title1">Nümunə Dərslər</h1>
@@ -972,7 +1075,20 @@ function Home() {
 
 
         <Swiper
-          slidesPerView={5}
+           breakpoints={{
+            576: {
+              // width: 576,
+              slidesPerView: 1,
+            },
+            768: {
+              // width: 768,
+              slidesPerView: 1,
+            },
+            968: {
+              // width: 768,
+              slidesPerView: 4,
+            },
+          }}
           spaceBetween={30}
           pagination={{
             clickable: true,
@@ -1034,9 +1150,9 @@ function Home() {
         </Swiper>
       </section>
 
-      <section>
+      <section className="desktopp">
         <div
-          className="container"
+          className="container universection"
           style={{ paddingLeft: "140px", paddingRight: "140px" }}
         >
           <div className="columns-2" style={{ backgroundColor: "#F5FBF9",borderRadius:"10px" }}>
@@ -1055,10 +1171,30 @@ function Home() {
         </div>
       </section>
 
-      <section style={{paddingTop:"100px"}}>
+
+      <section className="mobilee">
+        <div
+          className="container universection"
+          style={{ paddingLeft: "140px", paddingRight: "140px" }}
+        >
+          <div style={{ backgroundColor: "#F5FBF9",borderRadius:"10px" }}>
+           <div style={{padding:"30px 40px"}}>
+                <div style={{fontSize:"25px", fontWeight:"700",marginBottom:"20px"}}><span style={{color:"#07A169"}}>Onrepetitor</span>-a niyə qoşulmalısınız?</div>
+                <img src="/assets/stars.svg" style={{marginBottom:"40px"}}/>
+                <div>
+                    <a style={{color:"#fff", background:"#07A169", borderRadius:"10px",padding:"15px"}}>İNDİ QOŞUL</a>
+                </div>
+           </div>
+           
+            
+          </div>
+        </div>
+      </section>
+
+      <section className="universection" style={{paddingTop:"100px"}}>
         <div>
           <div>
-            <h1 className="titleh1">Axtardığın Sualların Cavabı</h1>
+            <h1 className="title1">Axtardığın Sualların Cavabı</h1>
             <p className="subtitle1">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros elementum tristique. Duis cursus,
