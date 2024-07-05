@@ -36,7 +36,7 @@ function Contact() {
              
           </div>
           <div>
-            <div style={{background:"#fff", borderRadius:"10px", padding:"30px 30px"}}>
+            <div className='formvfdf' style={{background:"#fff", borderRadius:"10px", padding:"30px 30px"}}>
                 <form>
                   <div>Ad Soyad</div>
                   <input type='text' style={{border: "1px solid #b4aeae85", borderRadius: "6px", width: "100%", height: "40px", margin: "10px 0 25px 0"}}/>
