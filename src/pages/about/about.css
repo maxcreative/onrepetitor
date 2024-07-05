@@ -1,5 +1,8 @@
 @media only screen and (max-width: 600px) {
-
+    .aboutP{
+        padding-right: 0 !important;
+        padding-bottom: 30px !important;
+    }
     .aboutTextSection{
         padding: 20px 20px !important;
     }

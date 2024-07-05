@@ -26,7 +26,7 @@ function About() {
 
     <section className='aboutTextSection' style={{background:"#F5FBF9",padding:"100px 140px"}}>
       <div className='columns-2 aboutColumns'>
-        <div><p style={{paddingRight:"30px"}}>
+        <div><p className='aboutP' style={{paddingRight:"30px"}}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus metus magna, vel ullamcorper arcu sodales at. Quisque rhoncus neque non fermentum scelerisque. Nunc iaculis vel nisl in auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec eu eleifend erat. Maecenas dictum purus vel sollicitudin egestas. Vivamus sed metus quis nisl posuere condimentum. Sed enim justo, placerat a ipsum non, ornare congue est. Etiam egestas, diam ac finibus condimentum, quam metus porta eros, ac iaculis tortor nisl a eros. Integer sagittis purus vel nibh porttitor vulputate.
         <br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam cursus metus magna, vel ullamcorper arcu sodales at. Quisque rhoncus neque non fermentum scelerisque. Nunc iaculis vel nisl in auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec eu eleifend erat.</p></div>
         <div><img src='/assets/about.png'/></div>
