@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px) {
+
+    .aboutTextSection{
+        padding: 20px 20px !important;
+    }
+    .aboutColumns{
+        columns: unset !important;
+    }
+    .aboutTop{
+        text-align: center !important;
+    padding: 20px 20px !important;
+    }
+    .joinText{
+        padding: 40px 20px 20px 0px !important;
+    }
+    .joinImage{
+        margin-top: 20px !important;
+    }
+
+    .aboutsubtext{
+        width: 90% !important;
+    }
+    .title1{
+        text-align: center;
+        font-size: 30px !important;
+        font-weight: 600;
+        margin-bottom: 12px;
+    }
+    
+    .subtitle1{
+        text-align: center;
+        width: 80% !important;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+}
+
+.title1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.subtitle1{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+}

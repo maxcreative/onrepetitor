@@ -108,16 +108,16 @@ const Footer = () => {
               
                 <li className="mb-2">
                   
-                <Link to={"/about"} className="text-muted ">
+                <Link to={"/haqqimizda"} className="text-muted ">
                       Haqqımızda
                     </Link>
                    
                 </li>
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted ">
+                <Link to={"/haqqimizda"} className="text-muted ">
                       Komanda
-                    </a>
+                    </Link>
                    
                 </li>
                 <li className="mb-2">
@@ -129,7 +129,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-2">
                   
-                <Link to={"/about"} className="text-muted ">
+                <Link to={"/haqqimizda"} className="text-muted ">
                     Karyera
                   </Link>
                  
