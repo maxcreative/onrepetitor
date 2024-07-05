@@ -56,23 +56,23 @@
 .tabActive{
     background: #07A169;
     color: #fff;
-    padding: 10px 20px !important;
+    padding: 10px 15px !important;
     border-radius: 8px;
     border: 1px solid #07A169;
-    margin:0 10px;
-    font-size: 10px !important;
+    margin:0 6px !important;
+    font-size: 8px !important;
   }
   .tabDeactive{
     background: #fff;
     color: #818C96;
-    padding: 10px 20px !important;
+    padding: 10px 15px !important;
     border-radius: 8px;
     border: 1px solid #818C96;
-    margin:0 10px;
-    font-size: 10px !important;
+    margin:0 6px !important;
+    font-size: 8px !important;
   }
 
   .universection{
-    padding:30px !important;
+    padding:20px !important;
   }
 }
