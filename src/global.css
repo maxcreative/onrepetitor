@@ -26,9 +26,7 @@ footer{
     text-align: center;
 }
 
-.niyeImage{
-    background-image: url("/assets/niye.png");
-}
+
 .reviewback{
   background-image: url("/assets/back.jpg");
 
@@ -59,14 +57,17 @@ footer{
   background: #07A169;
   color: #fff;
   padding: 10px 23px;
-  border-radius: 10px;
+  border-radius: 8px;
+  border: 1px solid #07A169;
+  margin:0 10px;
 }
 .tabDeactive{
   background: #fff;
   color: #818C96;
   padding: 10px 23px;
-  border-radius: 10px;
+  border-radius: 8px;
   border: 1px solid #818C96;
+  margin:0 10px;
 }
 .bg-white{
   --tw-bg-opacity:0 !important;

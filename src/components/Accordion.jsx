@@ -6,8 +6,8 @@ const Accordion = ({ title, content }) => {
   return (
     <div className="accordion-item">
       <div className="accordion-title" onClick={() => setIsActive(!isActive)}>
-        <div>{title}</div>
-        <div>{isActive ? '-' : <img src='/assets/downarrow.png'/>}</div>
+        <div style={{fontWeight:"600"}}>{title}</div>
+        <div>{isActive ? '-' : <img style={{marginTop:"8px"}} src='/assets/downarrow.png'/>}</div>
       </div>
       {isActive && <div className="accordion-content">{content}</div>}
     </div>

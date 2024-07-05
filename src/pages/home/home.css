@@ -1,0 +1,35 @@
+.title1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.subtitle1{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.orangetitle{
+    
+    background: #FD661F;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 8px;
+    font-weight: 500;
+    margin: auto;
+
+}
+.orangespan{
+    
+    color: #07A169;
+    font-size: 29px;
+    font-weight: 600;
+
+}
+
+ 
