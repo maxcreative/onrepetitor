@@ -36,63 +36,63 @@ const Footer = () => {
               
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted hover:text-black">
+                    <a href="" className="text-muted h">
                      Blok İmtahanları
                     </a>
                    
                 </li>
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted hover:text-black">
+                    <a href="" className="text-muted ">
                       1-ci qrup
                     </a>
                    
                 </li>
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted hover:text-black">
+                    <a href="" className="text-muted ">
                       2-ci qrup
                     </a>
                    
                 </li>
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted hover:text-black">
+                    <a href="" className="text-muted ">
                       3-cü qrup
                     </a>
                    
                 </li>
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted hover:text-black">
+                    <a href="" className="text-muted ">
                       4-cü qrup
                     </a>
                    
                 </li>
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted hover:text-black">
+                    <a href="" className="text-muted ">
                      Buraxılış İmtahanları
                     </a>
                    
                 </li>
                 <li className="mb-2">
                   
-                  <a href="" className="text-muted hover:text-black">
+                  <a href="" className="text-muted ">
                    9-cu sinif
                   </a>
                  
               </li>
               <li className="mb-2">
                   
-                  <a href="" className="text-muted hover:text-black">
+                  <a href="" className="text-muted ">
                    10-cu sinif
                   </a>
                  
               </li>
               <li className="mb-2">
                   
-                  <a href="" className="text-muted hover:text-black">
+                  <a href="" className="text-muted ">
                    11-cu sinif
                   </a>
                  
@@ -107,28 +107,28 @@ const Footer = () => {
               
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted hover:text-black">
+                    <a href="" className="text-muted ">
                       Haqqımızda
                     </a>
                    
                 </li>
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted hover:text-black">
+                    <a href="" className="text-muted ">
                       Komanda
                     </a>
                    
                 </li>
                 <li className="mb-2">
                   
-                    <a href="" className="text-muted hover:text-black">
+                    <a href="" className="text-muted ">
                       Yeniliklər
                     </a>
                    
                 </li>
                 <li className="mb-2">
                   
-                  <a href="" className="text-muted hover:text-black">
+                  <a href="" className="text-muted ">
                     Karyera
                   </a>
                  

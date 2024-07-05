@@ -9,7 +9,7 @@ function About() {
     <>
     <Nav />
      
-    About
+    News
     <Footer />
     </>
   )

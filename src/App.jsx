@@ -17,7 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/haqqimizda" element={<About />} />
         <Route path="/kurslar" element={<Courses />} />
-        <Route path="/kurs/:id" element={<Course />} />
+        <Route path="/kurslar/:id" element={<Course />} />
         <Route path="/dersler" element={<Courses />} />
         <Route path="/elaqe" element={<Contact />} />
         <Route path="/news" element={<News />} />
