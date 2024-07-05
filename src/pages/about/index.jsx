@@ -15,7 +15,7 @@ function About() {
      
     <section>
       <div className='aboutTop' style={{ textAlign:"center", padding:"60px 100px"}}>
-        <div ><Link to={'/'} style={{textDecoration:"underline"}}>Ana Səhifə</Link><span style={{margin:"0 10px"}}>/</span><span>Yeniliklər</span></div>
+        <div ><Link to={'/'} style={{textDecoration:"underline"}}>Ana Səhifə</Link><span style={{margin:"0 10px"}}>/</span><span>Haqqımızda</span></div>
 
         <div style={{marginTop:"20px", fontSize:"25px", fontWeight:"600"}}>Gələcəyinizi müəyyənləşdirmək
         bacarıqlarınızı artırmaqla başlayır</div>
@@ -42,7 +42,7 @@ function About() {
           </p>
       </div>
       <div className='columns-3 aboutColumns  '>
-      <div style={{borderRadius:"10px", marginRight:"20px",background:"#F2FFF1", padding:"40px 40px", textAlign:"center"}}>
+      <div style={{borderRadius:"10px", margin:"0 20px",background:"#F2FFF1", padding:"40px 40px", textAlign:"center"}}>
             <img style={{margin:"20px auto 30px auto"}} src='/assets/deyer1.svg' />
             <div style={{fontWeight:"500", fontSize:"20px"}}>Etdiyiniz iş üçün əlinizdən gələni edin.</div>
             <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada pharetra eros, ac rhoncus enim semper id.</div>

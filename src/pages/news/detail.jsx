@@ -50,7 +50,7 @@ function About() {
             <div style={{marginTop:"10px"}}>1 May 2024</div>
             <div style={{fontSize:"17px", fontWeight:"600", margin:"10px 0px"}}>Özəl repetitorların dövrü <br/>bağlanır.</div>
             <div style={{fontSize:"15px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</div>
-            <div style={{textAlign:"right", marginTop:"20px"}}><button style={{background:"#07A169", padding:"6px 15px", color:"#fff", borderRadius:"10px"}}>Ətraflı</button></div>
+            <div style={{textAlign:"right", marginTop:"20px"}}><Link to={'/news/1'} style={{background:"#07A169", padding:"10px 20px", color:"#fff", borderRadius:"10px"}}>Ətraflı</Link></div>
           </div>
 
           <div className=' newsComponent' style={{marginBottom:"30px",padding:"30px 30px"}}>
@@ -59,7 +59,7 @@ function About() {
             <div style={{marginTop:"10px"}}>1 May 2024</div>
             <div style={{fontSize:"17px", fontWeight:"600", margin:"10px 0px"}}>Onrepetitor-la övladlarınızı sıxmadan nəticələrini izləyəcəksiniz.</div>
             <div style={{fontSize:"15px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</div>
-            <div style={{textAlign:"right", marginTop:"20px"}}><button style={{background:"#07A169", padding:"6px 15px", color:"#fff", borderRadius:"10px"}}>Ətraflı</button></div>
+            <div style={{textAlign:"right", marginTop:"20px"}}><Link to={'/news/1'} style={{background:"#07A169", padding:"10px 20px", color:"#fff", borderRadius:"10px"}}>Ətraflı</Link></div>
           </div>
 
           <div className=' newsComponent' style={{marginBottom:"30px",padding:"30px 30px"}}>
@@ -68,7 +68,7 @@ function About() {
             <div style={{marginTop:"10px"}}>1 May 2024</div>
             <div style={{fontSize:"17px", fontWeight:"600", margin:"10px 0px"}}>Başa düşmədiklərinizi hər səfərində təkraralaya biləcəksiniz</div>
             <div style={{fontSize:"15px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</div>
-            <div style={{textAlign:"right", marginTop:"20px"}}><button style={{background:"#07A169", padding:"6px 15px", color:"#fff", borderRadius:"10px"}}>Ətraflı</button></div>
+            <div style={{textAlign:"right", marginTop:"20px"}}><Link to={'/news/1'} style={{background:"#07A169", padding:"10px 20px", color:"#fff", borderRadius:"10px"}}>Ətraflı</Link></div>
           </div>
 
            
@@ -88,7 +88,7 @@ function About() {
             <div style={{marginTop:"10px"}}>1 May 2024</div>
             <div style={{fontSize:"17px", fontWeight:"600", margin:"10px 0px"}}>Özəl repetitorların dövrü <br/>bağlanır.</div>
             <div style={{fontSize:"15px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</div>
-            <div style={{textAlign:"right", marginTop:"20px"}}><button style={{background:"#07A169", padding:"6px 15px", color:"#fff", borderRadius:"10px"}}>Ətraflı</button></div>
+            <div style={{textAlign:"right", marginTop:"20px"}}><Link to={'/news/1'} style={{background:"#07A169", padding:"10px 20px", color:"#fff", borderRadius:"10px"}}>Ətraflı</Link></div>
           </div>
 
           <div className=' newsComponent' style={{marginBottom:"15px",padding:"30px 30px"}}>
@@ -97,7 +97,7 @@ function About() {
             <div style={{marginTop:"10px"}}>1 May 2024</div>
             <div style={{fontSize:"17px", fontWeight:"600", margin:"10px 0px"}}>Onrepetitor-la övladlarınızı sıxmadan nəticələrini izləyəcəksiniz.</div>
             <div style={{fontSize:"15px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</div>
-            <div style={{textAlign:"right", marginTop:"20px"}}><button style={{background:"#07A169", padding:"6px 15px", color:"#fff", borderRadius:"10px"}}>Ətraflı</button></div>
+            <div style={{textAlign:"right", marginTop:"20px"}}><Link to={'/news/1'} style={{background:"#07A169", padding:"10px 20px", color:"#fff", borderRadius:"10px"}}>Ətraflı</Link></div>
           </div>
 
           <div className=' newsComponent' style={{marginBottom:"15px",padding:"30px 30px"}}>
@@ -106,7 +106,7 @@ function About() {
             <div style={{marginTop:"10px"}}>1 May 2024</div>
             <div style={{fontSize:"17px", fontWeight:"600", margin:"10px 0px"}}>Başa düşmədiklərinizi hər səfərində təkraralaya biləcəksiniz</div>
             <div style={{fontSize:"15px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</div>
-            <div style={{textAlign:"right", marginTop:"20px"}}><button style={{background:"#07A169", padding:"6px 15px", color:"#fff", borderRadius:"10px"}}>Ətraflı</button></div>
+            <div style={{textAlign:"right", marginTop:"20px"}}><Link to={'/news/1'} style={{background:"#07A169", padding:"10px 20px", color:"#fff", borderRadius:"10px"}}>Ətraflı</Link></div>
           </div>
 
            
