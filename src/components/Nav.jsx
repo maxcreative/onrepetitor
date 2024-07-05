@@ -16,7 +16,7 @@ function Nav() {
           <Link
             to="/"
             className="self-center text-2xl font-extrabold whitespace-nowrap text-black font-sans">
-            <img src="/src/assets/logo.png"/>
+            <img src="/assets/logo.png"/>
           </Link>
         </a>
         <div className="hidden md:flex items-center space-x-2 rtl:space-x-reverse">

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="mx-auto flex flex-col lg:flex-row md:justify-between justify-center   max-w-screen-xl">
         <div className="mb-8 lg:mb-0 flex flex-col   items-center md:items-start ">
            <img
-            src="/src/assets/logowhite.png"
+            src="/assets/logowhite.png"
             
             className="mb-9"
             width="168"
@@ -144,8 +144,8 @@ const Footer = () => {
             </form>
 
             <div style={{display:"inline"}}>
-              <img src="/src/assets/google.png" style={{marginRight:"10px",width:"155px",display:"inline"}}/>
-              <img src="/src/assets/apple.png" style={{width:"155px",display:"inline"}}/>
+              <img src="/assets/google.png" style={{marginRight:"10px",width:"155px",display:"inline"}}/>
+              <img src="/assets/apple.png" style={{width:"155px",display:"inline"}}/>
             </div>
           </div>
       </div>
@@ -154,14 +154,14 @@ const Footer = () => {
     <div className="desktopp container mx-auto border-t border-gray-200 pt-4 text-center">
         <div className="columns-2" style={{paddingLeft:"140px", paddingRight:"140px",paddingBottom:"30px", paddingTop:"10px"}}>
         <div style={{textAlign:'left'}}>2024 Bütün haqqları Onrepetitor tərəfindən qorunur</div>
-        <div><img src="/src/assets/maxcreative.png" style={{width:"130px",marginLeft:"auto"}}></img></div>
+        <div><img src="/assets/maxcreative.png" style={{width:"130px",marginLeft:"auto"}}></img></div>
         </div>
  </div>
 
  <div style={{display:"none"}} className="mobilee container mx-auto border-t border-gray-200 pt-4 text-center">
         <div className="" style={{paddingLeft:"40px", paddingRight:"40px",paddingBottom:"30px", paddingTop:"10px"}}>
         <div style={{textAlign:'center'}}>2024 Bütün haqqları Onrepetitor tərəfindən qorunur</div>
-        <div><img src="/src/assets/maxcreative.png" style={{width:"130px",margin:"auto", marginTop:"20px"}}></img></div>
+        <div><img src="/assets/maxcreative.png" style={{width:"130px",margin:"auto", marginTop:"20px"}}></img></div>
         </div>
  </div>
  </>

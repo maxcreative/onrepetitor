@@ -5,7 +5,7 @@
 
 
 footer{
-    background-image: url("/src/assets/footerback.png");
+    background-image: url("/assets/footerback.png");
     background-size: cover;
     color:#fff;
 }
@@ -24,10 +24,10 @@ footer{
 }
 
 .niyeImage{
-    background-image: url("/src/assets/niye.png");
+    background-image: url("/assets/niye.png");
 }
 .reviewback{
-  background-image: url("/src/assets/back.jpg");
+  background-image: url("/assets/back.jpg");
 
 }
 .mainhero{

@@ -5,6 +5,10 @@ import About from "../src/pages/about";
 import Book from "../src/pages/books";
 import Exams from "../src/pages/exams";
 import Contact from "./pages/contact";
+import Courses from "./pages/course";
+import Course from "./pages/course/detail";
+import News from "./pages/news";
+import NewsDetail from "./pages/news/detail";
 
 function App() {
   return (
@@ -12,12 +16,12 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/haqqimizda" element={<About />} />
-        <Route path="/kurslar" element={<Book />} />
-        <Route path="/kurs/:id" element={<Book />} />
-        <Route path="/dersler" element={<Exams />} />
+        <Route path="/kurslar" element={<Courses />} />
+        <Route path="/kurs/:id" element={<Course />} />
+        <Route path="/dersler" element={<Courses />} />
         <Route path="/elaqe" element={<Contact />} />
-        <Route path="/news" element={<Contact />} />
-        <Route path="/news/:id" element={<Contact />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/news/:id" element={<NewsDetail />} />
       </Routes>
     </BrowserRouter>
   );
