@@ -9,6 +9,9 @@ import Courses from "./pages/course";
 import Course from "./pages/course/detail";
 import News from "./pages/news";
 import NewsDetail from "./pages/news/detail";
+import PaymentLogin from "./pages/payment/login"
+import PaymentSelect from "./pages/payment/select"
+import PaymentSuccess from "./pages/payment/success"
 
 function App() {
   return (
@@ -22,6 +25,9 @@ function App() {
         <Route path="/elaqe" element={<Contact />} />
         <Route path="/news" element={<News />} />
         <Route path="/news/:id" element={<NewsDetail />} />
+        <Route path="/payment/login" element={<PaymentLogin />} />
+        <Route path="/payment/success" element={<PaymentSuccess />} />
+        <Route path="/payment/select" element={<PaymentSelect />} />
       </Routes>
     </BrowserRouter>
   );
