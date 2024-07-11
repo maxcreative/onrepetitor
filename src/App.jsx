@@ -12,6 +12,8 @@ import NewsDetail from "./pages/news/detail";
 import PaymentLogin from "./pages/payment/login"
 import PaymentSelect from "./pages/payment/select"
 import PaymentSuccess from "./pages/payment/success"
+import AdminDashboard from "./pages/admin/index"
+import AdminLogin from "./pages/admin/login"
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
         <Route path="/payment/login" element={<PaymentLogin />} />
         <Route path="/payment/success" element={<PaymentSuccess />} />
         <Route path="/payment/select" element={<PaymentSelect />} />
+        <Route path="/admin/dashboard" element={<AdminDashboard />} />
+        <Route path="/admin/login" element={<AdminLogin />} />
       </Routes>
     </BrowserRouter>
   );

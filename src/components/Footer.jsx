@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 const Footer = () => {
   return (
     <>
-    <footer className="mt-8 py-7 container" style={{paddingTop:"100px",paddingBottom:"100px"}}>
+    <footer className="mt-8 py-7 " style={{paddingTop:"100px",paddingBottom:"100px"}}>
       <div className="mx-auto flex flex-col lg:flex-row md:justify-between justify-center   max-w-screen-xl">
         <div className="mb-8 lg:mb-0 flex flex-col   items-center md:items-start ">
            <img

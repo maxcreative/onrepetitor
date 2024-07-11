@@ -27,11 +27,26 @@ function Home() {
           className="mainhero"
           style={{ display: "flex", padding: "150px 140px 0 140px" }}
         >
-          <div>
-            <img src="/assets/tehsil.png" />
+          <div className="mainhero1" style={{width:"50%"}}>
+             <div className="mh1" style={{background:"#fff",padding:"10px 10px", width:"300px",borderRadius:"10px", textAlign:"center", fontSize:"18px", fontWeight:"600"}}>Bizimlə öyrənmək daha rahatdır</div>
+             <div className="mh2" style={{margin:"30px 0",fontSize:"50px", fontWeight:"700"}}>Təhsilinizə sərmayəni Onrepetitor vasitəsilə edin</div>
+             <div><button style={{background:"#07A169", padding:"15px 20px", color:"#fff",marginBottom:"30px", borderRadius:"15px"}}>İNDİ QOŞUL</button></div>
+
+
           </div>
-          <div>
-            <img src="/assets/boy.png" />
+          <div  className="mainhero2" style={{width:"50%"}}>
+            <div style={{ position:"relative"}}>
+            <img src="/assets/boy.png" style={{margin:"auto"}} />
+            <div style={{padding:"12px 13px",display:"flex", background:"#fff", borderRadius:"15px", position:"absolute", top:"50%"}}>
+              <div><img src="/assets/play.svg" style={{marginRight:"10px"}}/></div>
+              
+              <div>
+                <div style={{fontWeight:"700"}}>5000+ video dərslə</div>
+                <div style={{fontWeight:"500"}}>tələbə namizədlərinə dəstək</div>
+              </div>
+            </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -142,14 +157,11 @@ function Home() {
                   />
                 </div>
                 <div>
-                  <img
-                    src="/assets/price.png"
-                    style={{
-                      width: "80%",
-                      margin: "auto",
-                      marginBottom: "20px",
-                    }}
-                  />
+                   
+                  <div style={{display:'flex', textAlign:"center", padding:"15px 15px"}}>
+                    <div style={{width:"50%", paddingTop:"10px"}}><span style={{color:"#FD661F", fontWeight:"700", fontSize:"17px"}}>380 ₼</span><span style={{color:"#9d9d9d",textDecoration:"line-through", fontWeight:"600",marginLeft:"10px", fontSize:"17px"}}>500 ₼</span></div>
+                    <div style={{width:"50%"}}><button style={{background:"#07A169", borderRadius:"10px", color:"#fff", padding:"8px 13px"}}>İndi Al</button></div>
+                  </div>
                 </div>
               </div>
             </SwiperSlide>
@@ -207,14 +219,11 @@ function Home() {
                   />
                 </div>
                 <div>
-                  <img
-                    src="/assets/price.png"
-                    style={{
-                      width: "80%",
-                      margin: "auto",
-                      marginBottom: "20px",
-                    }}
-                  />
+                   
+                  <div style={{display:'flex', textAlign:"center", padding:"15px 15px"}}>
+                    <div style={{width:"50%", paddingTop:"10px"}}><span style={{color:"#FD661F", fontWeight:"700", fontSize:"17px"}}>380 ₼</span><span style={{color:"#9d9d9d",textDecoration:"line-through", fontWeight:"600",marginLeft:"10px", fontSize:"17px"}}>500 ₼</span></div>
+                    <div style={{width:"50%"}}><button style={{background:"#07A169", borderRadius:"10px", color:"#fff", padding:"8px 13px"}}>İndi Al</button></div>
+                  </div>
                 </div>
               </div>
             </SwiperSlide>
@@ -272,14 +281,11 @@ function Home() {
                   />
                 </div>
                 <div>
-                  <img
-                    src="/assets/price.png"
-                    style={{
-                      width: "80%",
-                      margin: "auto",
-                      marginBottom: "20px",
-                    }}
-                  />
+                   
+                  <div style={{display:'flex', textAlign:"center", padding:"15px 15px"}}>
+                    <div style={{width:"50%", paddingTop:"10px"}}><span style={{color:"#FD661F", fontWeight:"700", fontSize:"17px"}}>380 ₼</span><span style={{color:"#9d9d9d",textDecoration:"line-through", fontWeight:"600",marginLeft:"10px", fontSize:"17px"}}>500 ₼</span></div>
+                    <div style={{width:"50%"}}><button style={{background:"#07A169", borderRadius:"10px", color:"#fff", padding:"8px 13px"}}>İndi Al</button></div>
+                  </div>
                 </div>
               </div>
             </SwiperSlide>
@@ -337,14 +343,11 @@ function Home() {
                   />
                 </div>
                 <div>
-                  <img
-                    src="/assets/price.png"
-                    style={{
-                      width: "80%",
-                      margin: "auto",
-                      marginBottom: "20px",
-                    }}
-                  />
+                   
+                  <div style={{display:'flex', textAlign:"center", padding:"15px 15px"}}>
+                    <div style={{width:"50%", paddingTop:"10px"}}><span style={{color:"#FD661F", fontWeight:"700", fontSize:"17px"}}>380 ₼</span><span style={{color:"#9d9d9d",textDecoration:"line-through", fontWeight:"600",marginLeft:"10px", fontSize:"17px"}}>500 ₼</span></div>
+                    <div style={{width:"50%"}}><button style={{background:"#07A169", borderRadius:"10px", color:"#fff", padding:"8px 13px"}}>İndi Al</button></div>
+                  </div>
                 </div>
               </div>
             </SwiperSlide>
@@ -402,79 +405,11 @@ function Home() {
                   />
                 </div>
                 <div>
-                  <img
-                    src="/assets/price.png"
-                    style={{
-                      width: "80%",
-                      margin: "auto",
-                      marginBottom: "20px",
-                    }}
-                  />
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div
-                style={{
-                  boxShadow: "6px 5px 19px 12px #75757540",
-                  borderRadius: "18px",
-                }}
-              >
-                <div>
-                  <img
-                    style={{ borderRadius: "18px" }}
-                    src="/assets/training.png"
-                  />
-                </div>
-                <div
-                  className="reviewback"
-                  style={{
-                    borderRadius: "22px",
-                    paddingTop: "5px",
-                    position: "relative",
-                    background: "#fff",
-                    width: "70%",
-                    marginTop: "-19px",
-                    marginBottom: "10px",
-                    marginLeft: "auto",
-                    marginRight: "auto",
-                  }}
-                >
-                  <div style={{ display: "inline" }}>
-                    <img
-                      src="/assets/review.png"
-                      style={{ width: "80px", display: "inline" }}
-                    />
+                   
+                  <div style={{display:'flex', textAlign:"center", padding:"15px 15px"}}>
+                    <div style={{width:"50%", paddingTop:"10px"}}><span style={{color:"#FD661F", fontWeight:"700", fontSize:"17px"}}>380 ₼</span><span style={{color:"#9d9d9d",textDecoration:"line-through", fontWeight:"600",marginLeft:"10px", fontSize:"17px"}}>500 ₼</span></div>
+                    <div style={{width:"50%"}}><button style={{background:"#07A169", borderRadius:"10px", color:"#fff", padding:"8px 13px"}}>İndi Al</button></div>
                   </div>
-                  <div style={{ display: "inline", fontSize: "14px" }}>
-                    +40 İstifadəçi
-                  </div>
-                </div>
-                <div>
-                  <img
-                    src="/assets/star.png"
-                    style={{ width: "150px", margin: "auto" }}
-                  />
-                </div>
-                <div>
-                  <img
-                    src="/assets/description.png"
-                    style={{
-                      width: "90%",
-                      marginLeft: "20px",
-                      marginBottom: "20px",
-                    }}
-                  />
-                </div>
-                <div>
-                  <img
-                    src="/assets/price.png"
-                    style={{
-                      width: "80%",
-                      margin: "auto",
-                      marginBottom: "20px",
-                    }}
-                  />
                 </div>
               </div>
             </SwiperSlide>
@@ -557,14 +492,11 @@ function Home() {
                   />
                 </div>
                 <div>
-                  <img
-                    src="/assets/price.png"
-                    style={{
-                      width: "80%",
-                      margin: "auto",
-                      marginBottom: "20px",
-                    }}
-                  />
+                   
+                  <div style={{display:'flex', textAlign:"center", padding:"15px 15px"}}>
+                    <div style={{width:"50%", paddingTop:"10px"}}><span style={{color:"#FD661F", fontWeight:"700", fontSize:"17px"}}>380 ₼</span><span style={{color:"#9d9d9d",textDecoration:"line-through", fontWeight:"600",marginLeft:"10px", fontSize:"17px"}}>500 ₼</span></div>
+                    <div style={{width:"50%"}}><button style={{background:"#07A169", borderRadius:"10px", color:"#fff", padding:"8px 13px"}}>İndi Al</button></div>
+                  </div>
                 </div>
               </div>
             </SwiperSlide>
@@ -622,14 +554,11 @@ function Home() {
                   />
                 </div>
                 <div>
-                  <img
-                    src="/assets/price.png"
-                    style={{
-                      width: "80%",
-                      margin: "auto",
-                      marginBottom: "20px",
-                    }}
-                  />
+                   
+                  <div style={{display:'flex', textAlign:"center", padding:"15px 15px"}}>
+                    <div style={{width:"50%", paddingTop:"10px"}}><span style={{color:"#FD661F", fontWeight:"700", fontSize:"17px"}}>380 ₼</span><span style={{color:"#9d9d9d",textDecoration:"line-through", fontWeight:"600",marginLeft:"10px", fontSize:"17px"}}>500 ₼</span></div>
+                    <div style={{width:"50%"}}><button style={{background:"#07A169", borderRadius:"10px", color:"#fff", padding:"8px 13px"}}>İndi Al</button></div>
+                  </div>
                 </div>
               </div>
             </SwiperSlide>
@@ -687,14 +616,11 @@ function Home() {
                   />
                 </div>
                 <div>
-                  <img
-                    src="/assets/price.png"
-                    style={{
-                      width: "80%",
-                      margin: "auto",
-                      marginBottom: "20px",
-                    }}
-                  />
+                   
+                  <div style={{display:'flex', textAlign:"center", padding:"15px 15px"}}>
+                    <div style={{width:"50%", paddingTop:"10px"}}><span style={{color:"#FD661F", fontWeight:"700", fontSize:"17px"}}>380 ₼</span><span style={{color:"#9d9d9d",textDecoration:"line-through", fontWeight:"600",marginLeft:"10px", fontSize:"17px"}}>500 ₼</span></div>
+                    <div style={{width:"50%"}}><button style={{background:"#07A169", borderRadius:"10px", color:"#fff", padding:"8px 13px"}}>İndi Al</button></div>
+                  </div>
                 </div>
               </div>
             </SwiperSlide>
@@ -752,14 +678,11 @@ function Home() {
                   />
                 </div>
                 <div>
-                  <img
-                    src="/assets/price.png"
-                    style={{
-                      width: "80%",
-                      margin: "auto",
-                      marginBottom: "20px",
-                    }}
-                  />
+                   
+                  <div style={{display:'flex', textAlign:"center", padding:"15px 15px"}}>
+                    <div style={{width:"50%", paddingTop:"10px"}}><span style={{color:"#FD661F", fontWeight:"700", fontSize:"17px"}}>380 ₼</span><span style={{color:"#9d9d9d",textDecoration:"line-through", fontWeight:"600",marginLeft:"10px", fontSize:"17px"}}>500 ₼</span></div>
+                    <div style={{width:"50%"}}><button style={{background:"#07A169", borderRadius:"10px", color:"#fff", padding:"8px 13px"}}>İndi Al</button></div>
+                  </div>
                 </div>
               </div>
             </SwiperSlide>
@@ -817,14 +740,11 @@ function Home() {
                   />
                 </div>
                 <div>
-                  <img
-                    src="/assets/price.png"
-                    style={{
-                      width: "80%",
-                      margin: "auto",
-                      marginBottom: "20px",
-                    }}
-                  />
+                   
+                  <div style={{display:'flex', textAlign:"center", padding:"15px 15px"}}>
+                    <div style={{width:"50%", paddingTop:"10px"}}><span style={{color:"#FD661F", fontWeight:"700", fontSize:"17px"}}>380 ₼</span><span style={{color:"#9d9d9d",textDecoration:"line-through", fontWeight:"600",marginLeft:"10px", fontSize:"17px"}}>500 ₼</span></div>
+                    <div style={{width:"50%"}}><button style={{background:"#07A169", borderRadius:"10px", color:"#fff", padding:"8px 13px"}}>İndi Al</button></div>
+                  </div>
                 </div>
               </div>
             </SwiperSlide>
@@ -882,14 +802,11 @@ function Home() {
                   />
                 </div>
                 <div>
-                  <img
-                    src="/assets/price.png"
-                    style={{
-                      width: "80%",
-                      margin: "auto",
-                      marginBottom: "20px",
-                    }}
-                  />
+                   
+                  <div style={{display:'flex', textAlign:"center", padding:"15px 15px"}}>
+                    <div style={{width:"50%", paddingTop:"10px"}}><span style={{color:"#FD661F", fontWeight:"700", fontSize:"17px"}}>380 ₼</span><span style={{color:"#9d9d9d",textDecoration:"line-through", fontWeight:"600",marginLeft:"10px", fontSize:"17px"}}>500 ₼</span></div>
+                    <div style={{width:"50%"}}><button style={{background:"#07A169", borderRadius:"10px", color:"#fff", padding:"8px 13px"}}>İndi Al</button></div>
+                  </div>
                 </div>
               </div>
             </SwiperSlide>
@@ -1152,19 +1069,27 @@ function Home() {
 
       <section className="desktopp">
         <div
-          className="container universection"
-          style={{ paddingLeft: "140px", paddingRight: "140px" }}
+          className=" universection"
+          style={{ paddingLeft: "140px", paddingRight: "140px" , margin:"auto"}}
         >
-          <div className="columns-2" style={{ backgroundColor: "#F5FBF9",borderRadius:"10px" }}>
-           <div style={{padding:"63px 44px"}}>
+          <div className="" style={{display:"flex", backgroundColor: "#F5FBF9",borderRadius:"10px" }}>
+           <div style={{width:"62%",padding:"63px 0px 63px 44px"}}>
                 <div style={{fontSize:"40px", fontWeight:"700",marginBottom:"20px"}}><span style={{color:"#07A169"}}>Onrepetitor</span>-a niyə qoşulmalısınız?</div>
-                <img src="/assets/stars.svg" style={{marginBottom:"40px"}}/>
+                
                 <div>
+                  <div style={{display:"inline-block", marginBottom:"10px"}}><img src="/assets/starblack.svg" style={{display:"inline"}}/><span style={{display:"inline", fontSize:"15px", fontWeight:"400", marginLeft:"10px", paddingBottom:"20px"}}>Müəllim yanına gedərkən xərclədiyiniz vaxta qənaət etmək üçün</span></div>
+                  <div style={{display:"inline-block", marginBottom:"10px"}}><img src="/assets/starblack.svg" style={{display:"inline"}}/><span style={{display:"inline", fontSize:"15px", fontWeight:"400", marginLeft:"10px", paddingBottom:"20px"}}>Başa düşmədiyiniz mövzuları fərqli müəllimlərdən dinləyə bildiyiniz üçün</span></div>
+                  <div style={{display:"inline-block", marginBottom:"10px"}}><img src="/assets/starblack.svg" style={{display:"inline"}}/><span style={{display:"inline", fontSize:"15px", fontWeight:"400", marginLeft:"10px", paddingBottom:"20px"}}>İstədiyiniz vaxt heç bir sərhəd olmadan təkrarlamaq fürsəti təqdim etdiyi üçün</span></div>
+                  <div style={{display:"inline-block", marginBottom:"10px"}}><img src="/assets/starblack.svg" style={{display:"inline"}}/><span style={{display:"inline", fontSize:"15px", fontWeight:"400", marginLeft:"10px", paddingBottom:"20px"}}>Öyrəndiklərinizi real vaxtda testlərlə inkişaf etdirə bilmə imkanı olduğu üçün</span></div>
+                </div>
+
+
+                <div style={{marginTop:"40px"}}>
                     <a style={{color:"#fff", background:"#07A169", borderRadius:"10px",padding:"15px"}}>İNDİ QOŞUL</a>
                 </div>
            </div>
            
-            <div className="niyeimage">
+            <div className="niyeimage" style={{width:"38%"}}>
               <img src="/assets/niyee.png" style={{height:"500px", marginLeft:"auto"}}/>
             </div>
           </div>
@@ -1172,16 +1097,23 @@ function Home() {
       </section>
 
 
-      <section className="mobilee">
+      <section className="mobilee" style={{display:"none"}}>
         <div
           className="container universection"
           style={{ paddingLeft: "140px", paddingRight: "140px" }}
         >
           <div style={{ backgroundColor: "#F5FBF9",borderRadius:"10px" }}>
-           <div style={{padding:"30px 40px"}}>
-                <div style={{fontSize:"25px", fontWeight:"700",marginBottom:"20px"}}><span style={{color:"#07A169"}}>Onrepetitor</span>-a niyə qoşulmalısınız?</div>
-                <img src="/assets/stars.svg" style={{marginBottom:"40px"}}/>
+           <div style={{padding:"30px 10px"}}>
+                <div style={{textAlign:"center",fontSize:"25px", fontWeight:"700",marginBottom:"20px"}}><span style={{color:"#07A169"}}>Onrepetitor</span>-a niyə qoşulmalısınız?</div>
+                
                 <div>
+                  <div style={{display:"inline-block", marginBottom:"10px"}}><img src="/assets/starblack.svg" style={{display:"inline"}}/><span style={{display:"inline", fontSize:"15px", fontWeight:"400", marginLeft:"10px", paddingBottom:"20px"}}>Müəllim yanına gedərkən xərclədiyiniz vaxta qənaət etmək üçün</span></div>
+                  <div style={{display:"inline-block", marginBottom:"10px"}}><img src="/assets/starblack.svg" style={{display:"inline"}}/><span style={{display:"inline", fontSize:"15px", fontWeight:"400", marginLeft:"10px", paddingBottom:"20px"}}>Başa düşmədiyiniz mövzuları fərqli müəllimlərdən dinləyə bildiyiniz üçün</span></div>
+                  <div style={{display:"inline-block", marginBottom:"10px"}}><img src="/assets/starblack.svg" style={{display:"inline"}}/><span style={{display:"inline", fontSize:"15px", fontWeight:"400", marginLeft:"10px", paddingBottom:"20px"}}>İstədiyiniz vaxt heç bir sərhəd olmadan təkrarlamaq fürsəti təqdim etdiyi üçün</span></div>
+                  <div style={{display:"inline-block", marginBottom:"10px"}}><img src="/assets/starblack.svg" style={{display:"inline"}}/><span style={{display:"inline", fontSize:"15px", fontWeight:"400", marginLeft:"10px", paddingBottom:"20px"}}>Öyrəndiklərinizi real vaxtda testlərlə inkişaf etdirə bilmə imkanı olduğu üçün</span></div>
+                </div>
+
+                <div style={{marginTop:"20px",textAlign:"center"}}>
                     <a style={{color:"#fff", background:"#07A169", borderRadius:"10px",padding:"15px"}}>İNDİ QOŞUL</a>
                 </div>
            </div>

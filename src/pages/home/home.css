@@ -36,7 +36,23 @@
 @media only screen and (max-width: 600px) {
 .mainhero{
     display: block !important;
-    padding: 32px 35px !important;
+    padding: 22px 25px !important;
+}
+.mainhero1{
+    width: 100% !important;
+    text-align: center !important;
+    
+}
+.mh1{
+    margin: auto !important;
+}
+.mh2{
+    font-size: 27px !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+}
+.mainhero2{
+    width: 100% !important;
 }
 
 .title1{
@@ -61,6 +77,9 @@
     border: 1px solid #07A169;
     margin:0 6px !important;
     font-size: 8px !important;
+    width: 45% !important;
+    font-size: 13px !important;
+
   }
   .tabDeactive{
     background: #fff;
@@ -70,8 +89,15 @@
     border: 1px solid #818C96;
     margin:0 6px !important;
     font-size: 8px !important;
+    width: 45% !important;
+    font-size: 13px !important;
   }
 
+  .orangetitle {
+    width: 250px !important;
+    font-size: 23px !important;
+    margin-bottom:40px !important;
+  }
   .universection{
     padding:20px !important;
   }
